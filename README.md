@@ -29,7 +29,7 @@ Tech Stack
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dsddevs@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dsd6989)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davlatbek-rabbimov-56a0352a3)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@dsd_devs/videos)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=oPEiX3wCErE&t=20s)
 
 </div>
 
@@ -88,7 +88,7 @@ Tech Stack
   <h3>📺 Latest YouTube Videos</h3>
 
   <!-- Replace these with your actual video thumbnails and links -->
-  <a href="https://www.youtube.com/@dsd_devs/videos">
+  <a href="https://www.youtube.com/watch?v=oPEiX3wCErE&t=20s">
     <img src="assets/icons/youtube.png" width="50" style="margin: 10px">
   </a>
 </div>
@@ -97,3 +97,4 @@ Tech Stack
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=yourusername&color=blueviolet" alt="Profile views">
+</div>
