@@ -32,7 +32,11 @@ public class AuditLogAspect {
     private final JwtRepository jwtRepository;
 
     @Async
-    @AfterReturning(pointcut = "@annotation(auditable)", returning = "result", argNames = "joinPoint,auditable,result")
+    @AfterReturning(
+            pointcut = "@annotation(auditable)",
+            returning = "result",
+            argNames = "joinPoint,auditable,result"
+    )
     public void auditMethod(JoinPoint joinPoint, Auditable auditable, Object result) {
         try {
             Object[] args = joinPoint.getArgs();

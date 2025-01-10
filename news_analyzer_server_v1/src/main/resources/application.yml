@@ -42,8 +42,9 @@ spring:
     properties:
       hibernate:
         format_sql: true
+        default_schema: public
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
 
 #Logging Configuration
 logging:
