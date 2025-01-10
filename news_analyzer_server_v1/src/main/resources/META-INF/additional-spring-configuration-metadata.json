@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "api.openPages",
+      "type": "java.lang.String",
+      "description": "Description for api.openPages."
+  }
+] }

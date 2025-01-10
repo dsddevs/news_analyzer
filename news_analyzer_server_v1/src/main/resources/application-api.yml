@@ -1,0 +1,16 @@
+api:
+  openPages:
+     - "/"
+     - "/api/home/main"
+     - "/api/home/register"
+     - "/api/home/password-recovery"
+     - "/api/home/login"
+     - "/api/home/login/**"
+     - "/api/home/send-otp"
+     - "/api/home/resend-otp"
+     - "/api/home/confirm-otp"
+     - "/api/home/refresh-jwt"
+     - "/api/home/news-analyzer"
+
+server:
+   port: 8181
