@@ -109,22 +109,16 @@ export const RegisterPage: React.FC = () => {
                                       error={errors.confirmPassword}
                             />
 
-                            <div className={`flex justify-evenly`}>
-                                <RegisterRemember inputName={`consentGiven`}
-                                                  text={`I accept the`}
-                                                  {...register("consentGiven", {
-                                                      required: "Please accept terms and conditions"
-                                                  })}
-                                                  error={errors.consentGiven}
-                                />
-                                <AppAuthLink name={`Terms and Conditions`}
-                                             path={RouteClient.TERMS_AND_CONDITIONS}
-                                />
-                            </div>
-
+                            <RegisterRemember inputName={`consentGiven`}
+                                              text={`I accept the`}
+                                              {...register("consentGiven", {
+                                                  required: "Please accept terms and conditions"
+                                              })}
+                                              error={errors.consentGiven}
+                            />
                         </div>
 
-                        <div className="mt-4">
+                        <div className="mt-2">
                             <AppButton
                                 id={`register-button`}
                                 name="Create Account"
@@ -133,12 +127,12 @@ export const RegisterPage: React.FC = () => {
                             />
                         </div>
 
-                        {error && (<RegisterError>{error}</RegisterError>)}
-
                         <div className={linkStyle.loginLink}>
                             <div> Already have an account?</div>
                             <AppAuthLink name={`Login here`} path={RouteClient.LOGIN}/>
                         </div>
+
+                        {error && (<RegisterError>{error}</RegisterError>)}
 
                     </form>
 
