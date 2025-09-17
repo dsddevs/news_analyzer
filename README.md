@@ -72,12 +72,6 @@ Tech Stack
 </div>
 
 <div align="center">
-  <h3>📊 GitHub Stats</h3>
-
-  <img src="https://github-readme-stats.vercel.app/api?username=dsddevs&show_icons=true&theme=radical" alt="GitHub Stats">
-</div>
-
-<div align="center">
   <h3>🏆 Certificates</h3>
 
 [![Java Certificate](https://img.shields.io/badge/Java-Certified-success?style=for-the-badge&logo=oracle&logoColor=white)](link-to-certificate)
